@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f2e9">
+  <meta name="description" content="Discover Coorg Highland Coffee, grown with care in the highlands of Coorg.">
+  <title>Coorg Highland Coffee — Grown in the Highlands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Coorg Highland Coffee home">
+      <span class="brand-mark" aria-hidden="true">CH</span>
+      <span class="brand-name">Coorg Highland<br><span>Coffee</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#story">Our story</a>
+      <a href="#coffee">The coffee</a>
+      <a href="#approach">Our approach</a>
+      <a class="nav-cta" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="A warm cup of coffee surrounded by coffee beans"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> Grown in the highlands of Coorg</p>
+        <h1>A little piece<br>of the <em>highlands.</em></h1>
+        <p class="hero-copy">Good coffee begins with good ground. We’re coffee planters in Coorg, caring for the land and the crop, season after season.</p>
+        <a class="button button-dark" href="#story">Get to know us <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-caption"><span>12° 25′ N</span><span>THE WESTERN GHATS, INDIA</span></div>
+      <div class="hero-scroll" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="section-label"><span>01</span> A PLACE TO GROW</div>
+      <div class="intro-copy">
+        <h2>From the hills of Coorg,<br>with <em>care in every cup.</em></h2>
+        <p>In Coorg, coffee is part of the landscape and the rhythm of life. Our work starts on the farm: tending the plants, learning from each season, and bringing the character of this place to the coffee we grow.</p>
+        <a class="text-link" href="#approach">A little more about us <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="intro-note"><span class="leaf-icon" aria-hidden="true">✳</span><p>Rooted in place.<br>Grown with intention.</p></div>
+    </section>
+
+    <section class="coffee-section" id="coffee">
+      <div class="coffee-photo" role="img" aria-label="Coffee plants growing among the trees"></div>
+      <div class="coffee-content">
+        <div class="section-label section-label-light"><span>02</span> THE COFFEE</div>
+        <h2>Distinctly here.<br><em>Made to be shared.</em></h2>
+        <p>Our coffee reflects its home: the highland air, the shade of the trees, and the hands that care for it. We believe the best way to tell its story is to let the coffee—and the people behind it—speak for themselves.</p>
+        <a class="button button-light" href="#contact">Ask us about our coffee <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="approach section-pad" id="approach">
+      <div class="section-label"><span>03</span> HOW WE SEE IT</div>
+      <div class="approach-heading"><h2>Care is a<br><em>daily practice.</em></h2><p>There’s no shortcut to good coffee. Just thoughtful work, respect for the land, and a willingness to keep learning.</p></div>
+      <div class="principles">
+        <article class="principle"><span class="principle-number">01</span><h3>Know the land</h3><p>Every farm has its own character. Paying attention to our landscape helps us make better choices through every season.</p></article>
+        <article class="principle"><span class="principle-number">02</span><h3>Care for the crop</h3><p>Good coffee takes patience. We give our plants the attention they need, from the first new growth to harvest.</p></article>
+        <article class="principle"><span class="principle-number">03</span><h3>Keep getting better</h3><p>We stay curious about how we grow and share our coffee, always looking for ways to do the work more thoughtfully.</p></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow"><span></span> FROM OUR PLACE TO YOURS</p>
+        <h2>Let’s talk <em>coffee.</em></h2>
+        <p>Curious about our farm or the coffee we grow? We’d love to hear from you.</p>
+        <a class="button button-light" href="mailto:">Get in touch <span aria-hidden="true">↗</span></a>
+        <p class="contact-note">Update this button’s email address in <code>index.html</code> before publishing.</p>
+      </div>
+      <div class="contact-decoration" aria-hidden="true">CH</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark" aria-hidden="true">CH</span>
+      <span class="brand-name">Coorg Highland<br><span>Coffee</span></span>
+    </a>
+    <p>Grown with care in Coorg, India.</p>
+    <a class="back-top" href="#home">Back to top ↑</a>
+    <small>© <span id="year"></span> Coorg Highland Coffee</small>
+  </footer>
+</body>
+</html>
